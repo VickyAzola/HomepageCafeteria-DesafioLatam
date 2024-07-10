@@ -1,0 +1,19 @@
+.btn {
+
+  &--primary {
+    @include button($white, $silver, 1px solid $silver);
+    margin-right: 1rem;
+
+    &:hover {
+      @include button($white, $black, 1px solid $black);
+    }
+  }
+  
+  &--secondary {
+    @include button($green, $white, 1px solid $green);
+
+    &:hover {
+      @include button($light-green, $black, 1px solid $light-green);
+    }
+  }
+}

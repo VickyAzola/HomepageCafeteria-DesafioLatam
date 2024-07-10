@@ -1,0 +1,10 @@
+.link {
+  font-family: $font-mono;
+  color: $silver;
+  text-decoration: none;
+
+  &:hover {
+    color: $black;
+    transition: all ease-in-out .2s;
+  }
+}

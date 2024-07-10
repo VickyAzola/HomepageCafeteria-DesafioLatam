@@ -1,0 +1,11 @@
+@mixin button ($bg-color, $color, $border) {
+  background-color: $bg-color;
+  color: $color;
+  border: $border;
+
+  padding: .5rem;
+  min-width: 9rem;
+  font-family: $font-mono;
+  transition: all ease-in-out .2s;
+  cursor: pointer;
+}
