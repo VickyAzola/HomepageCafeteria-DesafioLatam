@@ -45,7 +45,7 @@ body {
 }
 .top__section .intro__img {
   position: relative;
-  background-image: url("/assets/images/img-1.png");
+  background-image: url("../images/img-1.png");
   background-size: cover;
   width: 70%;
 }
@@ -76,7 +76,7 @@ body {
   background-color: #3c91e6;
 }
 .bottom__section .description__text .blue__section .map {
-  background-image: url("/assets/images/img-4.png");
+  background-image: url("../images/img-4.png");
   background-size: cover;
   height: 90%;
   width: 90%;
@@ -85,7 +85,7 @@ body {
   left: -1.5rem;
 }
 .bottom__section .description__text .blue__section .coffee {
-  background-image: url("/assets/images/img-3.png");
+  background-image: url("../images/img-3.png");
   background-size: cover;
   background-position: center;
   height: 80%;
@@ -95,7 +95,7 @@ body {
   right: -2rem;
 }
 .bottom__section .description__img {
-  background-image: url("/assets/images/img-2.png");
+  background-image: url("../images/img-2.png");
   background-size: cover;
   background-position: center;
   width: 30%;
