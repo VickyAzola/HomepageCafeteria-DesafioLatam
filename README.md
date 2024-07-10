@@ -10,7 +10,7 @@
 
 ## Descripción
 
-Este es un proyecto de Homepage para la cafetería Agere, utilizando HTML y SASS fue organizada siguiendo el método 7-1 para una mejor gestión y mantenimiento del código CSS.
+Este es un proyecto de Homepage para la cafetería Agere, utilizando HTML y SASS, fue organizada siguiendo el método 7-1 para una mejor gestión y mantenimiento del código CSS.
 
 [Revisa el resultado final aqui](https://vickyazola.github.io/HomepageCafeteria-DesafioLatam/)
 
