@@ -32,7 +32,7 @@ HomepageCafeteria-DesafioLatam/
 │   │   ├── img-3.png
 │   │   └── img-4.png
 │   │    
-│   └── scss/
+│   └── sass/
 │       ├── abstracts/
 │       │   ├── _mixins.scss
 │       │   └── _variables.scss
@@ -42,8 +42,9 @@ HomepageCafeteria-DesafioLatam/
 │       │   └── _typography.scss
 │       │ 
 │       ├── components/
-│       │   ├── _nav.scss
-│       │   ├── _button.scss
+│       │   ├── _navbar.scss
+│       │   ├── _buttons.scss
+│       │   ├── _link.scss
 │       │   ├── _stats.scss
 │       │   └── _box.scss
 │       │ 
@@ -53,7 +54,6 @@ HomepageCafeteria-DesafioLatam/
 │       │ 
 │       ├── pages/
 │       ├── themes/
-│       │ 
 │       ├── vendors/
 │       └── main.scss
 │
