@@ -1,10 +1,9 @@
 .nav {
-
   &__logo {
     width: 2rem;
     margin-right: 1rem;
   }
-
+  
   &__list {
     list-style-type: none;
     display: flex;
@@ -12,4 +11,3 @@
     column-gap: 2rem;
   }
 }
-

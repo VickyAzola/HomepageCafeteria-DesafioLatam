@@ -1,0 +1,52 @@
+.section {
+  display: flex;
+  object-fit: contain;
+
+  .img {
+    width: 100%;
+    min-height: 100%;
+  }
+
+  &__left {
+    width: 70%;
+    position: relative;
+
+    &--top {
+      min-height: 50vh;
+    }
+
+    &--bottom {
+      min-height: 35vh;
+      display: flex;
+
+      .text-block {
+        width: 50%;
+      }
+  
+      .blue-block {
+        position: relative;
+        width: 50%;
+        height: 85%;
+        background-color: $blue;
+
+        .map {
+          position: absolute;
+          top: 2rem;
+          left: -1rem;
+        }
+
+        .coffee {
+          position: absolute;
+          top: 0;
+          z-index: 1;
+          right: -2rem;
+        }
+      }
+    }
+  }
+
+  &__right {
+    width: 30%;
+    position: relative;
+  }
+}

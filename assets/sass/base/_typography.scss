@@ -2,36 +2,38 @@
 
 body {
   color: $black;
+  font-family: $font-mono
 }
 
-.top__section {
-
-  .text {
-    width: min-content;
-    margin-inline: auto;
-
-    &__title {
-      font-family: $font-mono;
-      font-size: 4.375rem;
-      margin-bottom: 1rem;
-    }
-    
-    &__subtitle {
-      font-family: $font-roboto;
-      font-size: 1.5rem;
-    }
-  }
+h1, .f1 {
+  font-size: $xxxl;
+  margin-bottom: $m1;
 }
 
-.description {
+h2, .f2 {
+  font-size: $xxl;
+}
 
-  &__title {
-    font-family: $font-mono;
-    margin-bottom: 1rem;
-    font-size: 2rem;
+h3, .f3 {
+  font-size: $xl;
+  margin-bottom: $m1;
+}
+
+h4, .f4 {
+  font-size: $lg;
+}
+
+p, .fp {
+  font-size: $md;
+  font-family: $font-roboto;
+}
+
+@media screen and (width < 1000px) {
+  h1, .f1 {
+    font-size: 50px;
   }
 
-  &__paragraph {
-    font-family: $font-roboto
+  h3, .f3 {
+    font-size: $lg;
   }
 }

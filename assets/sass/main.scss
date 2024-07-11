@@ -15,16 +15,19 @@
 
 //Layout
 @import 
-  "layout/main",
-  "layout/header";
+  "layout/section",
+  "layout/navbar";
 
 //Componentes
 @import 
   "components/box",
   "components/buttons",
+  "components/coffee",
   "components/link",
-  "components/navbar",
-  "components/stats";
+  "components/map",
+  "components/nav",
+  "components/stats",
+  "components/textBlock";
 
 //Pages
 
