@@ -42,8 +42,9 @@ HomepageCafeteria-DesafioLatam/
 │       │   └── _typography.scss
 │       │ 
 │       ├── components/
-│       │   ├── _nav.scss
-│       │   ├── _button.scss
+│       │   ├── _navbar.scss
+│       │   ├── _buttons.scss
+│       │   ├── _link.scss
 │       │   ├── _stats.scss
 │       │   └── _box.scss
 │       │ 
