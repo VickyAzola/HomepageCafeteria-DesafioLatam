@@ -25,12 +25,7 @@ HomepageCafeteria-DesafioLatam/
 │   ├── css/
 │   │   └── main.css
 │   │
-│   ├── img/
-│   │   ├── logo.png
-│   │   ├── img-1.png
-│   │   ├── img-2.png
-│   │   ├── img-3.png
-│   │   └── img-4.png
+│   ├── img/...
 │   │    
 │   └── sass/
 │       ├── abstracts/
